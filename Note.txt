@@ -1,0 +1,3 @@
+#1 First init node in the project with : npm init -y
+#2 Install all the dependecy : npm i bcrypt connect-mongo cookie-parser dotenv ejs express express-ejs-layouts express-session jsonwebtoken method-override mongoose
+#3 Install the Nodemon Dev : npm i Nodemon --save-dev
