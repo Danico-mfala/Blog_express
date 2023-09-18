@@ -1,3 +1,41 @@
-body {
-    background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,500;1,600&display=swap');
+
+:root{
+    --black: #1c1c1c;
+    --gray: #7E7E7E;
+    --gray-light: #E4E4E4;
+    --red: #b30000;
+    --font-size-base: 1rem;
+    --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+    --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.78rem);
+    --border-radius:10px;
 }
+
+
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+    color: var(--black);
+    font-size: var(--font-size-base);
+    background-color: #FAF5EE;
+    background-image: url(/img/noise-img.jpg);
+    margin: 0;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+select,
+textarea {
+    font-family:'Poppins', sans-serif ;
+    font-size: var(--font-size-base);
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.7rem 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.btn
